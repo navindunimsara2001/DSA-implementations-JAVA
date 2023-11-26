@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/DSA-implementations-JAVA.iml" filepath="$PROJECT_DIR$/.idea/DSA-implementations-JAVA.iml" />
-      <module fileurl="file://$PROJECT_DIR$/stack impl/stack impl.iml" filepath="$PROJECT_DIR$/stack impl/stack impl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stack impl using Array/stack impl using Array.iml" filepath="$PROJECT_DIR$/stack impl using Array/stack impl using Array.iml" />
     </modules>
   </component>
 </project>

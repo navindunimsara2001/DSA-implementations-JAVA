@@ -11,7 +11,7 @@ public class StackApp {
         stack.push(10);
         stack.push(12); // this will generate an error
 
-        // remove value for
+        // remove value from stack
         stack.pop();
         stack.pop();
         stack.pop();

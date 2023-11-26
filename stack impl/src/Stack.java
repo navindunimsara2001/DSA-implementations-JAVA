@@ -18,7 +18,7 @@ public class Stack {
         else{
             top++;
             stackArr[top] = value;
-            System.out.println("Inserted "+value);
+            System.out.println("Inserted "+stackArr[top]);
         }
     }
 
@@ -30,8 +30,8 @@ public class Stack {
         }
         else {
             int value = stackArr[top];
-            System.out.println("Removed "+value);
             top--;
+            System.out.println("Removed "+value);
             return value;
         }
     }

@@ -30,6 +30,7 @@ public class Stack {
         }
         else {
             int value = stackArr[top];
+            System.out.println("Removed "+value);
             top--;
             return value;
         }

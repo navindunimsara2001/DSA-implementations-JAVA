@@ -23,7 +23,6 @@ public class Stack {
     }
 
     // pop method
-
     public int pop(){ // check weather stack is empty
         if(top == -1){
             System.out.println("Error : Stack is empty");

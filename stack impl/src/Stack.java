@@ -25,8 +25,14 @@ public class Stack {
     // pop method
 
     public int pop(){
-        int value = stackArr[top];
-        top--;
-        return value;
+        if(top == -1){
+            System.out.println("Error : Stack is empty");
+            return -1;
+        }
+        else {
+            int value = stackArr[top];
+            top--;
+            return value;
+        }
     }
 }

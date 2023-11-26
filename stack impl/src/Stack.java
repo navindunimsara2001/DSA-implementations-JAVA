@@ -27,7 +27,6 @@ public class Stack {
     public int pop(){
         int value = stackArr[top];
         top--;
-
         return value;
     }
 }

@@ -25,6 +25,7 @@ public class Queue {
             rear++; // increment rear
             queueArr[rear] = value; // insert item
             nItems++; // increment number of items
+            System.out.println("Inserted "+value);
         }
     }
 
@@ -38,13 +39,14 @@ public class Queue {
             nItems--; // decrease number of items
             int value =  queueArr[front];
             front++;
+            System.out.println("Removed "+value);
             return value;
         }
     }
 
     // peekFront method
     public int peekFront(){
-        if(nItems == 0){
+        if(nItems == 0){ // check whether queue is empty
             System.out.println("Error : Queue is empty"); // error message
             return -1;
         }

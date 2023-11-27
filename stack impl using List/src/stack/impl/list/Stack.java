@@ -19,10 +19,10 @@ public class Stack {
         Node temp = new Node();
         // assign values to temp object
         temp.value = value;
-        // assign next Node reference(null) to temp
-        temp.next = topNode;   // in here topNode = null
+        // assign next Node reference to temp
+        temp.next = topNode;   // assign next Node to previous topNode reference
         // update topNode reference
-        topNode = temp;    // in here topNode has values
+        topNode = temp;    // assign current topNode to new temp Node reference
         System.out.println("Inserted "+value);
     }
 

@@ -1,7 +1,7 @@
 package stack.impl.list;
 
 public class Stack {
-    Node topNode;
+    private Node topNode;
 
     class Node{
         int value;

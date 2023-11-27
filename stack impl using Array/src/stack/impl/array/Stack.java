@@ -1,9 +1,9 @@
 package stack.impl.array;
 
 public class Stack {
-    int[] stackArr;
-    int maxSize;
-    int top;
+    private int[] stackArr;
+    private int maxSize;
+    private int top;
 
     // overloaded constructor
     public Stack(int size){

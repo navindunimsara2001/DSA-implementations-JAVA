@@ -26,7 +26,7 @@ public class Stack {
         System.out.println("Inserted "+value);
     }
 
-    // pop method
+    // pop method : remove top value
     public int pop(){
         if(topNode == null) { // check whether stack is empty
             System.out.println("Error : Stack is empty");

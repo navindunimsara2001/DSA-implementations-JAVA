@@ -39,4 +39,14 @@ public class Stack {
             return value;
         }
     }
+
+    public int peek(){
+        if(topNode == null){ // check whether stack is empty
+            System.out.println("Error : Stack is empty");
+            return -1;
+        }
+        else{
+            return topNode.value;
+        }
+    }
 }

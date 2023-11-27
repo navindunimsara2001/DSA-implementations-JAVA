@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/DSA-implementations-JAVA.iml" filepath="$PROJECT_DIR$/.idea/DSA-implementations-JAVA.iml" />
       <module fileurl="file://$PROJECT_DIR$/stack impl using Array/stack impl using Array.iml" filepath="$PROJECT_DIR$/stack impl using Array/stack impl using Array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stack impl using list/stack impl using list.iml" filepath="$PROJECT_DIR$/stack impl using list/stack impl using list.iml" />
     </modules>
   </component>
 </project>

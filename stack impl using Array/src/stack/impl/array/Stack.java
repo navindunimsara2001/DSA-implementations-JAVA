@@ -1,3 +1,5 @@
+package stack.impl.array;
+
 public class Stack {
     int[] stackArr;
     int maxSize;

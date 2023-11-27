@@ -1,4 +1,4 @@
-package stack.impl;
+package stack.impl.list;
 
 public class Stack {
     Node topNode;

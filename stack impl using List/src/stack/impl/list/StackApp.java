@@ -1,4 +1,4 @@
-package stack.impl;
+package stack.impl.list;
 
 public class StackApp {
     public static void main(String[] args) {

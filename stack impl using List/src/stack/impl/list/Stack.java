@@ -40,6 +40,7 @@ public class Stack {
         }
     }
 
+    // peek method : return top value
     public int peek(){
         if(topNode == null){ // check whether stack is empty
             System.out.println("Error : Stack is empty");

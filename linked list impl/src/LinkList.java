@@ -1,11 +1,12 @@
 public class LinkList {
-    private Link first;
+    private Link first; // for first Link
     public LinkList(){
         first = null;
     }
 
     // check empty
     public boolean isEmpty(){
+        // if first is null that means LinkList is null
         return (first == null);
     }
 

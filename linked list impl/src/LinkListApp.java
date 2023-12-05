@@ -1,10 +1,18 @@
 public class LinkListApp {
     public static void main(String[] args) {
-        Link l1 = new Link(25);
-        Link l2 = new Link(10);
-        Link l3 = new Link(70);
-
-        l1.next = l2;
-        l2.next = l3;
+        LinkList list = new LinkList();
+        // insert four items
+        list.insertFirst(34);
+        list.insertFirst(65);
+        list.insertFirst(71);
+        list.insertFirst(20);
+        // display the list
+        list.displayList();
+        // delete item one by one
+        while (list.isEmpty()){
+            Link rmLink = list.deleteFirst();
+            System.out.println("Deleted ");
+            rmLink.displayLink();
+        }
     }
 }

@@ -6,8 +6,9 @@ public class Node {
     Node leftChild;
     Node rightChild;
 
-    public Node(int data){
-        this.iData = data;
+    public Node(int id,double data){
+        this.iData = id;
+        this.dData = data;
         this.leftChild = null;
         this.rightChild = null;
     }

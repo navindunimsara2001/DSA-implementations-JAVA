@@ -1,8 +1,8 @@
 package tree.impl;
 
 public class Node {
-    int iData;
-    double dData;
+    int iData; // use as key value
+    double dData; // other data
     Node leftChild;
     Node rightChild;
 
